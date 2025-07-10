@@ -5,7 +5,7 @@
 
 # Solution code
 
-## project 1
+## project 1 solution
 
 
 ```javascript
@@ -63,5 +63,18 @@ form.addEventListener('submit', function (e) {
 
   
 });
+
+```
+
+## project3 solution
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+  //console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```
